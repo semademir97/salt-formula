@@ -13,4 +13,6 @@ ldap-login.sls on the server.  (Physical computer) <br>
 the other files are on the client. (Virtual Machine)<br>
 ldap-login.sls is Salt Formula file<br>
 
-running: salt 'minion's name' state.apply ldap-login
+running: salt 'minion's name' state.apply ldap-login <br>
+
+I don't know how we run these commands without SElinux = disabled. Still searching ...
