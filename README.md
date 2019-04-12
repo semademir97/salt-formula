@@ -1,4 +1,11 @@
-We want to config every CentOS 7 Servers using Salt.
+We want to config every CentOS 7 Servers using Salt. <br>
+
+I write these codes only CentOS Servers but if you have Debian or something server, you can search Jinja. Add a few commands for example: <br>
+
+{% if grains.os_family=='Debian' %}<br>
+
+.... <br>
+{%  endif %} <br> 
 
 You need OpenDJ, LDAP Server, Apache Directory, Salt Master and Salt Minions. <br>
 Parameters like ou, dc ... is in your LDAP Schema. For these configs (OpenDJ and LDAP) visiy my web site : www.semademir.com<br>
