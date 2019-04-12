@@ -9,7 +9,7 @@ I write these codes only CentOS Servers but if you have Debian or something serv
 {%  endif %} <br> 
 
 You need OpenDJ, LDAP Server, Apache Directory, Salt Master and Salt Minions. <br>
-Parameters like ou, dc ... is in your LDAP Schema. For these configs (OpenDJ and LDAP) visiy my web site : www.semademir.com<br>
+Parameters like ou, dc ... is in your LDAP Schema. For these configs (OpenDJ and LDAP) visit my web site : www.semademir.com<br>
 Don't forget to download and installation Apache Directory. <br>
 When you connect all of them, you should use these configs according to your Schema.<br>
 Then run the commands!
