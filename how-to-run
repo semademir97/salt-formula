@@ -1,0 +1,5 @@
+ldap-login.sls on the server.  (Physical computer)
+the other files are on the client. (Virtual Machine)
+ldap-login.sls is Salt Formula file
+
+running: salt 'minion's name' state.apply ldap-login
