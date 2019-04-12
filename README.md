@@ -5,6 +5,7 @@ I write these codes only CentOS Servers but if you have Debian or something serv
 {% if grains.os_family=='Debian' %}<br>
 
 .... <br>
+<br>
 {%  endif %} <br> 
 
 You need OpenDJ, LDAP Server, Apache Directory, Salt Master and Salt Minions. <br>
